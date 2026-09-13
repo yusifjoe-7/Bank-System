@@ -16,7 +16,7 @@ class User{
 
 };
 
-class Customer:User{
+class Customer : User{
     private:
         //int hash_save_p();
         int make_a_transfer_p();
@@ -26,7 +26,7 @@ class Customer:User{
         void load_fixed();
         void load_trnsfares();
         std::vector<fixed_deposits> fixed_deposits_vec;
-        std::vector<trnsfares> trnsfares;
+        std::vector<trnsfares> trnsfares_vec;
         void load_balance();
         double balance;
         
@@ -37,11 +37,20 @@ class Customer:User{
         void make_a_transfer();
         void ask_for_a_loan();
         void make_a_deposit();
-        void fixed_deposits();
+        void fixed_deposit();
         void check_balance();
         void check_fixed();
         void check_trnsfares();
         
+};
+
+class Employer : User{
+    private:
+        void louad_loan_application_p();
+        std::vector<loan_app> loans;
+
+    public:
+        void louad_load_application();
 };
  
 
