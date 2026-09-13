@@ -18,7 +18,6 @@ class acount_repository{
         void create_manager_p();
 
     public:
-        static void create_customer();
         static void create_emplyer();
         static void create_manager();
 };
