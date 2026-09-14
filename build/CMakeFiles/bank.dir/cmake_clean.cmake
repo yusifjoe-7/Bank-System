@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/bank.dir/link.d"
+  "CMakeFiles/bank.dir/cli/cli_loops.cpp.o"
+  "CMakeFiles/bank.dir/cli/cli_loops.cpp.o.d"
+  "CMakeFiles/bank.dir/cli/cli_prosses/login.cpp.o"
+  "CMakeFiles/bank.dir/cli/cli_prosses/login.cpp.o.d"
+  "CMakeFiles/bank.dir/cli/cli_prosses/signup.cpp.o"
+  "CMakeFiles/bank.dir/cli/cli_prosses/signup.cpp.o.d"
+  "CMakeFiles/bank.dir/cli/main_cli.cpp.o"
+  "CMakeFiles/bank.dir/cli/main_cli.cpp.o.d"
+  "CMakeFiles/bank.dir/db/add_user.cpp.o"
+  "CMakeFiles/bank.dir/db/add_user.cpp.o.d"
+  "CMakeFiles/bank.dir/db/sql_commands.cpp.o"
+  "CMakeFiles/bank.dir/db/sql_commands.cpp.o.d"
+  "CMakeFiles/bank.dir/main.cpp.o"
+  "CMakeFiles/bank.dir/main.cpp.o.d"
+  "CMakeFiles/bank.dir/models/customer.cpp.o"
+  "CMakeFiles/bank.dir/models/customer.cpp.o.d"
+  "CMakeFiles/bank.dir/models/employer.cpp.o"
+  "CMakeFiles/bank.dir/models/employer.cpp.o.d"
+  "CMakeFiles/bank.dir/models/manager.cpp.o"
+  "CMakeFiles/bank.dir/models/manager.cpp.o.d"
+  "CMakeFiles/bank.dir/models/sudo.cpp.o"
+  "CMakeFiles/bank.dir/models/sudo.cpp.o.d"
+  "CMakeFiles/bank.dir/models/user.cpp.o"
+  "CMakeFiles/bank.dir/models/user.cpp.o.d"
+  "CMakeFiles/bank.dir/security/account.cpp.o"
+  "CMakeFiles/bank.dir/security/account.cpp.o.d"
+  "CMakeFiles/bank.dir/security/logs.cpp.o"
+  "CMakeFiles/bank.dir/security/logs.cpp.o.d"
+  "CMakeFiles/bank.dir/security/security.cpp.o"
+  "CMakeFiles/bank.dir/security/security.cpp.o.d"
+  "bank"
+  "bank.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/bank.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
